@@ -1,0 +1,83 @@
+{
+    "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
+    "tourType": "LINEAIR",
+    "poiList":[
+        {
+            "name": "Alain Bernard",
+            "description": "Voor velen de favoriete slager in de pijp. Ze hebben allerlei heerlijke worsten in hun assortiment met roots uit Frankrijk.",
+            "coordinate": {
+                "latitude": 52.355453,
+                "longitude": 4.892651
+            },
+            "radius": 5,
+            "onEnter":"theothijssen.html",
+            "onExit":"naarbennopremsela.html"
+        },
+        {
+            "name": "Meneer van Mourik",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355497,
+                "longitude": 4.893156
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        },
+        {
+            "name": "De Peperbol",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355711,
+                "longitude": 4.894103
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        },
+        {
+            "name": "\'t Kaaskraampje",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355505,
+                "longitude": 4.890705
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        },
+        {
+            "name": "BBROOD",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355100,
+                "longitude": 4.893296
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        },
+        {
+            "name": "Estafette",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.352499,
+                "longitude": 4.888202
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        },
+        {
+            "name": "Wijnhandel van Krimpen",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355706,
+                "longitude": 4.888516
+            },
+            "radius": 5,
+            "onEnter":"bennopremsela.html",
+            "onExit":"totziens.html"
+        }
+    ]
+}
