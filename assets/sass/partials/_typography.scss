@@ -1,0 +1,11 @@
+body {
+	@include media(320px) {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+		font-size: 1em;
+		line-height: golden-ratio(1em, 1);
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}

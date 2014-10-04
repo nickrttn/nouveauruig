@@ -1,0 +1,9 @@
+header {
+	background-color: teal;
+	h1 {
+		color: #fff;
+		display: inline-block;
+		@include shift(2);
+		text-transform: uppercase;
+	}
+}
