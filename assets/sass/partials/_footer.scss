@@ -1,0 +1,18 @@
+@include media($mobile) {
+	footer {
+		figure {
+			figcaption {
+				text-align: center;
+				font-style: italic;
+				color: #fff;
+				font-size: 0.75em;
+			}
+			img {
+				max-width: 60%;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+}

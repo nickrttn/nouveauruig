@@ -1,0 +1,36 @@
+@include media($mobile) {
+	.index {
+		background: url(../images/indexbg.jpg) no-repeat;
+		main {
+			.full-width {
+				p {
+					margin: 2em 0;
+					color: #fff;
+				}
+				a.btn {
+					display: block;
+					padding: 0.75em 0 0.75em 5em;
+					margin: 0.5em 0;
+					width: 100%;
+					border: 2px solid #fff;
+					border-radius: 6px;
+					color: white;
+					text-decoration: none;
+					text-transform: uppercase;
+					line-height: 1.5em;
+					img {
+						position: absolute;
+						margin-right: 1em;
+						left: 4em;
+						max-width: 24px;
+						height: auto;
+					}
+					&:hover, &:active {
+						border: 2px solid $teal;
+						background-color: $teal;
+					}
+				}
+			}
+		}
+	}
+}

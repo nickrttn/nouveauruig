@@ -1,9 +1,22 @@
-header {
-	background-color: teal;
-	h1 {
-		color: #fff;
-		display: inline-block;
-		@include shift(2);
-		text-transform: uppercase;
+@include media($mobile) {
+	header {
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+		background-color: $teal;
+		.logo {
+			padding-top: 0.5em;
+			img {
+				display: block;
+				margin: 0 auto;
+				max-width: 20%;
+			}
+		}
+		.title {
+			h1 {
+				color: #fff;
+				font-weight: 300;
+				text-transform: uppercase;
+				font-size: 1.5em;
+			}
+		}
 	}
 }

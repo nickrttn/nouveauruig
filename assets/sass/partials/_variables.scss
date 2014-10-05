@@ -1,1 +1,15 @@
-$mobile: new-breakpoint(max-width 636px 4);
+/*
+-- Grid
+*/
+$mobile: new-breakpoint(max-width 320px 12);
+
+
+/*
+-- Font Stack
+*/
+$source-sans-pro: 'source-sans-pro', 'Helvetica Neue', Arial, sans-serif;
+
+/*
+-- Colors
+*/
+$teal: #00cfae;

@@ -1,21 +1,24 @@
-.wrapper {
-	@include media($mobile) {
-		@include outer-container;
-	}
-	header {
-		@include span-columns(12);
+@include media($mobile) {
+
+	header, main, footer {
+		@include outer-container();
 		@include omega();
+	}
+
+	header {
+		.logo {
+			@include span-columns(3);
+		}
+		.title {
+			@include span-columns(9);
+			@include omega();
+		}
 	}
 	main {
-		@include span-columns(12);
-		@include omega();
 		.full-width {
 			@include span-columns(10);
 			@include shift(1);
 			@include omega();
 		}
-	}
-	footer {
-		@include span-columns(12);
 	}
 }
