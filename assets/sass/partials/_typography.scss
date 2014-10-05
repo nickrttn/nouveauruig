@@ -2,6 +2,7 @@
 	body {
 		font-family: $source-sans-pro;
 		line-height: golden-ratio(16px, 1);
+		font-weight: 300;
 	}
 	a {
 		@include transition(color, 200ms, ease-in-out);

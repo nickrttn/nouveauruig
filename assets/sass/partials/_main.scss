@@ -1,6 +1,42 @@
 @include media($mobile) {
+	.index, .pick-cuisine {
+		background: url('./../images/indexbg.jpg') no-repeat;
+	}
 	.index {
-		background: url(../images/indexbg.jpg) no-repeat;
+		main {
+			.full-width {
+				p {
+					margin: 2em 0 1.5em;
+					color: #fff;
+				}
+				a.btn {
+					display: block;
+					padding: 0.75em 0;
+					margin: 0.5em 0;
+					width: 100%;
+					border: 1px solid #fff;
+					border-radius: 6px;
+					color: white;
+					text-align: center;
+					text-decoration: none;
+					text-transform: uppercase;
+					line-height: 1.5em;
+					img {
+						position: absolute;
+						margin-right: 1em;
+						left: 4em;
+						max-width: 24px;
+						height: auto;
+					}
+					&:hover, &:active {
+						border: 1px solid $teal;
+						background-color: $teal;
+					}
+				}
+			}
+		}
+	}
+	.pick-cuisine {
 		main {
 			.full-width {
 				p {
@@ -12,7 +48,7 @@
 					padding: 0.75em 0 0.75em 5em;
 					margin: 0.5em 0;
 					width: 100%;
-					border: 2px solid #fff;
+					border: 1px solid #fff;
 					border-radius: 6px;
 					color: white;
 					text-decoration: none;
@@ -26,9 +62,38 @@
 						height: auto;
 					}
 					&:hover, &:active {
-						border: 2px solid $teal;
+						border: 1px solid $teal;
 						background-color: $teal;
 					}
+				}
+			}
+		}
+	}
+	.map {
+		main {
+			background-color: $teal;
+			.full-width {
+				h2 {
+					color: #fff;
+				}
+				h3 {
+					color: #fff;
+				}
+				p {
+					color: #fff;
+				}
+				figure {
+					margin: 0;
+					text-align: center;
+				}
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+				figcaption {
+					color: white;
+					font-style: italic;
+					font-size: 0.8em;
 				}
 			}
 		}

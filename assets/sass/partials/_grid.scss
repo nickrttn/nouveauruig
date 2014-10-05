@@ -6,19 +6,35 @@
 	}
 
 	header {
+		@include span-columns(12);
 		.logo {
-			@include span-columns(3);
+			@include span-columns(3 of 12);
 		}
 		.title {
-			@include span-columns(9);
+			@include span-columns(9 of 12);
 			@include omega();
 		}
 	}
 	main {
+		@include span-columns(12);
+		@include omega();
 		.full-width {
-			@include span-columns(10);
+			@include span-columns(10 of 12);
 			@include shift(1);
 			@include omega();
+		}
+		#map_canvas {
+			@include span-columns(12 of 12);
+			@include omega();
+			height: 320px;
+		}
+	}
+	footer {
+		@include span-columns(12);
+		@include omega();
+		.full-width {
+			@include span-columns(10 of 12);
+			@include shift(1);
 		}
 	}
 }

@@ -1,5 +1,6 @@
 @include media($mobile) {
 	footer {
+		padding-top: 1em;
 		figure {
 			figcaption {
 				text-align: center;
@@ -13,6 +14,20 @@
 				display: block;
 				margin: 0 auto;
 			}
+		}
+		p {
+			color: white;
+			a {
+				color: white;
+				&:hover, &:active {
+					color: darken($teal, 10%);
+				}
+			}
+		}
+	}
+	.map {
+		footer {
+			background: $teal;
 		}
 	}
 }

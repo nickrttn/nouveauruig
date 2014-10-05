@@ -1,6 +1,34 @@
 {
-    "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
+    "googleMapsKey": "AIzaSyDRNRn8ykSbtiDRvqwg8bAHrg3Ay2Qc3VM",
     "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": true,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#00cfae",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 5
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#00cfae",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 3
+    },
     "poiList":[
      	{
             "name": "Wijnhandel van Krimpen",
@@ -10,19 +38,19 @@
                 "longitude": 4.888516
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atvankrimpen.html",
+            "onExit":"toalainbernard.html"
         },
         {
             "name": "Alain Bernard",
-            "description": "Voor velen de favoriete slager in de pijp. Ze hebben allerlei heerlijke worsten in hun assortiment met roots uit Frankrijk.",
+            "description": "Voor velen de favoriete slager in de Pijp. Ze hebben allerlei heerlijke worsten in hun assortiment met roots uit Frankrijk.",
             "coordinate": {
                 "latitude": 52.355453,
                 "longitude": 4.892651
             },
             "radius": 5,
-            "onEnter":"theothijssen.html",
-            "onExit":"naarbennopremsela.html"
+            "onEnter":"atalainbernard.html",
+            "onExit":"topeperbol.html"
         },
         {
             "name": "De Peperbol",
@@ -32,8 +60,8 @@
                 "longitude": 4.894103
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atpeperbol.html",
+            "onExit":"tobbrood.html"
         },
         {
             "name": "BBROOD",
@@ -43,8 +71,8 @@
                 "longitude": 4.893296
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atbbrood.html",
+            "onExit":"toestafette.html"
         },
         {
             "name": "Estafette",
@@ -54,8 +82,8 @@
                 "longitude": 4.888202
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atestafette.html",
+            "onExit":"recipe.html"
         }
     ]
 }
