@@ -20,7 +20,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/alainbernard\/interior.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/alainbernard\/storefront.jpg": {
 		"fileType": 16384,
@@ -31,7 +31,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/alainbernard\/storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/bbrood\/interior.jpg": {
 		"fileType": 16384,
@@ -42,7 +42,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/bbrood\/interior.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/bbrood\/storefront.jpg": {
 		"fileType": 16384,
@@ -53,7 +53,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/bbrood\/storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/beefwellington.jpg": {
 		"fileType": 16384,
@@ -64,7 +64,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/beefwellington.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/estafette\/interior.jpg": {
 		"fileType": 16384,
@@ -75,7 +75,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/estafette\/interior.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/estafette\/storefront.jpg": {
 		"fileType": 16384,
@@ -86,7 +86,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/estafette\/storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/gb.png": {
 		"fileType": 32768,
@@ -97,7 +97,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/gb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/indexbg.jpg": {
 		"fileType": 16384,
@@ -108,7 +108,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/indexbg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/logobig.png": {
 		"fileType": 32768,
@@ -119,7 +119,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/logobig.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/logosmall.png": {
 		"fileType": 32768,
@@ -130,7 +130,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/logosmall.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/peperbol\/interior.jpg": {
 		"fileType": 16384,
@@ -141,7 +141,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/peperbol\/interior.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/peperbol\/storefront.jpg": {
 		"fileType": 16384,
@@ -152,7 +152,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/peperbol\/storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/random.png": {
 		"fileType": 32768,
@@ -163,7 +163,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/random.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/us.png": {
 		"fileType": 32768,
@@ -174,7 +174,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/us.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/vankrimpen\/storefront.jpg": {
 		"fileType": 16384,
@@ -185,7 +185,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/vankrimpen\/storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/vankrimpen\/winebottles.jpg": {
 		"fileType": 16384,
@@ -196,7 +196,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/vankrimpen\/winebottles.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/vn.png": {
 		"fileType": 32768,
@@ -207,7 +207,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/vn.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/js\/vendor\/cmdgeo-0.2.js": {
 		"fileType": 64,
