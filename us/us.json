@@ -1,6 +1,34 @@
 {
     "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
     "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": true,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#00cfae",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 5
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#00cfae",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 3
+    },
     "poiList":[
         {
             "name": "Alain Bernard",
@@ -10,8 +38,8 @@
                 "longitude": 4.892651
             },
             "radius": 5,
-            "onEnter":"theothijssen.html",
-            "onExit":"naarbennopremsela.html"
+            "onEnter":"atalainbernard.html",
+            "onExit":"tomeneervanmourik.html"
         },
         {
             "name": "Meneer van Mourik",
@@ -21,8 +49,8 @@
                 "longitude": 4.893156
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atmeneervanmourik.html",
+            "onExit":"topeperbol.html"
         },
         {
             "name": "De Peperbol",
@@ -32,8 +60,8 @@
                 "longitude": 4.894103
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atpeperbol.html",
+            "onExit":"tokaaskraampje.html"
         },
         {
             "name": "\'t Kaaskraampje",
@@ -43,8 +71,8 @@
                 "longitude": 4.890705
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atkaaskraampje.html",
+            "onExit":"tobbrood.html"
         },
         {
             "name": "BBROOD",
@@ -54,8 +82,8 @@
                 "longitude": 4.893296
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atbbrood.html",
+            "onExit":"toestafette.html"
         },
         {
             "name": "Estafette",
@@ -65,8 +93,8 @@
                 "longitude": 4.888202
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atestafette.html",
+            "onExit":"tovankrimpen.html"
         },
         {
             "name": "Wijnhandel van Krimpen",
@@ -76,8 +104,8 @@
                 "longitude": 4.888516
             },
             "radius": 5,
-            "onEnter":"bennopremsela.html",
-            "onExit":"totziens.html"
+            "onEnter":"atvankrimpen.html",
+            "onExit":"recipe.html"
         }
     ]
 }
