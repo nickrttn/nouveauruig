@@ -8,7 +8,7 @@
         "draggable": true,
         "scrollwheel": false,
         "mapTypeControl": false,
-        "navigationControl": true,
+        "navigationControl": false,
         "mapTypeId": "ROADMAP"
     },
     "poiMarker": {
@@ -18,7 +18,7 @@
         "strokeColor": "#00cfae",
         "strokeOpacity": 1,
         "strokeWeight": 1,
-        "scale": 5
+        "scale": 7
     },
     "posMarker": {
         "path": "BACKWARD_CLOSED_ARROW",
@@ -37,7 +37,7 @@
                 "latitude": 52.355453,
                 "longitude": 4.892651
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atalainbernard.html",
             "onExit":"tomeneervanmourik.html"
         },
@@ -48,7 +48,7 @@
                 "latitude": 52.355497,
                 "longitude": 4.893156
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atmeneervanmourik.html",
             "onExit":"topeperbol.html"
         },
@@ -59,19 +59,19 @@
                 "latitude": 52.355711,
                 "longitude": 4.894103
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atpeperbol.html",
-            "onExit":"tokaaskraampje.html"
+            "onExit":"tokaasboertje.html"
         },
         {
-            "name": "\'t Kaaskraampje",
+            "name": "\\'t Kaasboertje",
             "description": "",
             "coordinate": {
                 "latitude": 52.355505,
                 "longitude": 4.890705
             },
-            "radius": 5,
-            "onEnter":"atkaaskraampje.html",
+            "radius": 7,
+            "onEnter":"atkaasboertje.html",
             "onExit":"tobbrood.html"
         },
         {
@@ -81,7 +81,7 @@
                 "latitude": 52.355100,
                 "longitude": 4.893296
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atbbrood.html",
             "onExit":"toestafette.html"
         },
@@ -92,7 +92,7 @@
                 "latitude": 52.352499,
                 "longitude": 4.888202
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atestafette.html",
             "onExit":"tovankrimpen.html"
         },
@@ -103,7 +103,7 @@
                 "latitude": 52.355706,
                 "longitude": 4.888516
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atvankrimpen.html",
             "onExit":"recipe.html"
         }

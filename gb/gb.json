@@ -27,7 +27,7 @@
         "strokeColor": "#00cfae",
         "strokeOpacity": 1,
         "strokeWeight": 1,
-        "scale": 3
+        "scale": 7
     },
     "poiList":[
      	{
@@ -37,7 +37,7 @@
                 "latitude": 52.355706,
                 "longitude": 4.888516
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atvankrimpen.html",
             "onExit":"toalainbernard.html"
         },
@@ -48,7 +48,7 @@
                 "latitude": 52.355453,
                 "longitude": 4.892651
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atalainbernard.html",
             "onExit":"topeperbol.html"
         },
@@ -59,7 +59,7 @@
                 "latitude": 52.355711,
                 "longitude": 4.894103
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atpeperbol.html",
             "onExit":"tobbrood.html"
         },
@@ -70,7 +70,7 @@
                 "latitude": 52.355100,
                 "longitude": 4.893296
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atbbrood.html",
             "onExit":"toestafette.html"
         },
@@ -81,7 +81,7 @@
                 "latitude": 52.352499,
                 "longitude": 4.888202
             },
-            "radius": 5,
+            "radius": 7,
             "onEnter":"atestafette.html",
             "onExit":"recipe.html"
         }
