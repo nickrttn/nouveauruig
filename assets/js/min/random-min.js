@@ -1,0 +1,1 @@
+var links=["http://nouveauruig.sparrowinspace.com/gb/index.html","http://nouveauruig.sparrowinspace.com/us/index.html","http://nouveauruig.sparrowinspace.com/vn/index.html"];$("#random").on("click",function(n){n.preventDefault(),window.location=links[Math.floor(Math.random()*links.length)]});
