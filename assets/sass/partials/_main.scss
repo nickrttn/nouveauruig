@@ -81,6 +81,10 @@
 				}
 				p {
 					color: #fff;
+					&.address {
+						font-style: italic;
+						margin-top: 0;
+					}
 				}
 				figure {
 					margin: 0;
