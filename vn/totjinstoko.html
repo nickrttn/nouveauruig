@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Great Britain | Placemat</title>
+
+	<!-- Load Typekit Fonts -->
+	<script src="//use.typekit.net/wue3ufl.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+	<!-- Load Stylesheet -->
+	<link rel="stylesheet" href="./../assets/css/screen.css" media="screen" />
+
+	<!-- Load Vendor Libraries -->
+	<script src="./../assets/js/vendor/underscore-min.js"></script>
+	<script src="./../assets/js/vendor/geo-min.js"></script>	
+	<script src="./../assets/js/vendor/cmdgeo-0.2.js"></script>
+
+	<!-- Load CMD Geo -->
+	<script type="text/javascript">
+		cmdgeo.loadSettings('vn.json');
+		cmdgeo.track();
+		window.onload = cmdgeo.loadmap;
+	</script>
+</head>
+<body class="map">
+	
+	<header>
+		<div class="logo">
+			<a href="../index.html"><img src="./../assets/images/logosmall.png" alt="Logo Nouvea Ruig" /></a>
+		</div>
+		<div class="title">
+			<h1>Bánh mì</h1>
+		</div>
+	</header>
+
+	<main>
+		<!-- Empty div for the map -->
+		<div id="map_canvas"></div>
+		<div class="full-width">
+
+			<p>Walk to the fourth point on the map: Tjin's Toki.</p>
+			<p class="address">Eerste van der Helststraat 64</p>
+
+			<figure>
+				<img src="./../assets/images/tjinstoko/storefront.jpg" alt="Tjin's Toko Storefront">
+				<figcaption>Look for this store.</figcaption>
+			</figure>
+
+			<h2>History of Bánh mì</h2>
+
+			<p>Bánh mì was introduced to the rest of the world in the 70's of the last century, during the Vietnam-war. Lots of Vietnamese refugees set up small bakeries to make Bánh mì and other Vietnamese baked goods for their fellow countrymen.</p>
+			
+		</div>
+	</main>
+
+	<footer>
+		<div class="full-width">
+			<p>Copyleft 2014. Made by <a href="http://github.com/nickrttn/nouveauruig">Nouveau Ruig</a></p>
+		</div>
+	</footer>
+
+</body>
+</html>
