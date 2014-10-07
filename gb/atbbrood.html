@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<title>Great Britain | Placemat</title>
+    <title>Great Britain | Placemat</title>
 
-	<!-- Load Typekit Fonts -->
-	<script src="//use.typekit.net/wue3ufl.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
+    <!-- Load Typekit Fonts -->
+    <script src="//use.typekit.net/wue3ufl.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
-	<!-- Load Stylesheet -->
-	<link rel="stylesheet" href="./../assets/css/screen.css" media="screen" />
+    <!-- Load Stylesheet -->
+    <link rel="stylesheet" href="./../assets/css/screen.css" media="screen" />
 
-	<!-- Load Vendor Libraries -->
-	<script src="./../assets/js/vendor/underscore-min.js"></script>
-	<script src="./../assets/js/vendor/geo-min.js"></script>	
-	<script src="./../assets/js/vendor/cmdgeo-0.2.js"></script>
+    <!-- Load Vendor Libraries -->
+    <script src="./../assets/js/vendor/underscore-min.js"></script>
+    <script src="./../assets/js/vendor/geo-min.js"></script>
+    <script src="./../assets/js/vendor/cmdgeo-0.2.js"></script>
 
-	<!-- Load CMD Geo -->
-	<script type="text/javascript">
-		cmdgeo.loadSettings('gb.json');
-		cmdgeo.track();
-	</script>
+    <!-- Load CMD Geo -->
+    <script type="text/javascript">
+        cmdgeo.loadSettings('gb.json');
+        cmdgeo.track();
+    </script>
 </head>
 <body class="map">
-	
-	<header>
-		<div class="logo">
-			<a href="../index.html"><img src="./../assets/images/logosmall.png" alt="Logo Nouvea Ruig" /></a>
-		</div>
-		<div class="title">
-			<h1>Beef Wellington</h1>
-		</div>
-	</header>
 
-	<main>
-		
-		<div class="full-width">
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="./../assets/images/logosmall.png" alt="Logo Nouvea Ruig" /></a>
+        </div>
+        <div class="title">
+            <h1>Beef Wellington</h1>
+        </div>
+    </header>
 
-			<h2>BBROOD</h2>
+    <main>
 
-			<p>Buy 250 grams of puff pastry, and 1 kg of flour.</p>
+        <div class="full-width">
 
-			<img src="./../assets/images/bbrood/interior.jpg" alt="BBROOD">
+            <h2>BBROOD</h2>
 
-			<p>To continue with the tour, walk out of the shop and to the right. The next page will automatically load.</p>
+            <p>Buy:</p>
 
-		</div>
+            <ul>
+                <li>Puff pastry (bladerdeeg)</li>
+                <li>Flour</li>
+            </ul>
 
-	</main>
+            <table>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>1 person</th>
+                    <th>2 persons</th>
+                    <th>4 persons</th>
+                </tr>
+                <tr>
+                    <td>Puff pastry</td>
+                    <td>125g</td>
+                    <td>250g</td>
+                    <td>500g</td>
+                </tr>
+                <tr>
+                    <td>Flour</td>
+                    <td>1 pack</td>
+                    <td>1 pack</td>
+                    <td>1 pack</td>
+                </tr>
+            </table>
 
-	<footer>
-		<div class="full-width">
-			<p>Copyleft 2014. Made by <a href="http://github.com/nickrttn/nouveauruig">Nouveau Ruig</a></p>
-		</div>
-	</footer>
+            <img src="./../assets/images/bbrood/interior.jpg" alt="BBROOD">
+
+            <p>To continue with the tour, walk out of the shop and to the right. The next page will automatically load.</p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="full-width">
+            <p>Copyleft 2014. Made by <a href="http://github.com/nickrttn/nouveauruig">Nouveau Ruig</a></p>
+        </div>
+    </footer>
 
 </body>
 </html>
