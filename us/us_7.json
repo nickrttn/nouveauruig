@@ -1,0 +1,45 @@
+{
+    "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
+    "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": false,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 7
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 3
+    },
+    "poiList":[
+            {
+            "name": "Wijnhandel van Krimpen",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.35586874512574,
+                "longitude": 4.888790198106564
+            },
+            "radius": 7,
+            "onEnter":"atvankrimpen.html",
+            "onExit":"recipe.html"
+        }
+    ]
+}
