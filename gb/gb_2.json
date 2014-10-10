@@ -39,7 +39,7 @@
             },
             "radius": 7,
             "onEnter":"atbbrood.html",
-            "onExit":"toestafette.html"
+            "onExit":"topeperbol.html"
         }
     ]
 }
