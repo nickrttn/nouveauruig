@@ -15,16 +15,16 @@
         "path": "CIRCLE",
         "fillColor": "GhostWhite",
         "fillOpacity": 1,
-        "strokeColor": "#00cfae",
+        "strokeColor": "#f3a654",
         "strokeOpacity": 1,
         "strokeWeight": 1,
-        "scale": 7
+        "scale": 10
     },
     "posMarker": {
         "path": "BACKWARD_CLOSED_ARROW",
         "fillColor": "GhostWhite",
         "fillOpacity": 1,
-        "strokeColor": "#00cfae",
+        "strokeColor": "#f3a654",
         "strokeOpacity": 1,
         "strokeWeight": 1,
         "scale": 3
@@ -34,10 +34,10 @@
             "name": "Alain Bernard",
             "description": "Voor velen de favoriete slager in de pijp. Ze hebben allerlei heerlijke worsten in hun assortiment met roots uit Frankrijk.",
             "coordinate": {
-                "latitude": 52.355453,
-                "longitude": 4.892651
+                "latitude": 52.35537941106814,
+                "longitude": 4.892667252574947
             },
-            "radius": 7,
+            "radius": 10,
             "onEnter":"atalainbernard.html",
             "onExit":"tomeneervanmourik.html"
         },
@@ -45,10 +45,10 @@
             "name": "Meneer van Mourik",
             "description": "",
             "coordinate": {
-                "latitude": 52.355497,
-                "longitude": 4.893156
+                "latitude": 52.3555241246264,
+                "longitude": 4.893319867555884
             },
-            "radius": 7,
+            "radius": 10,
             "onEnter":"atmeneervanmourik.html",
             "onExit":"tobbrood.html"
         },
@@ -56,10 +56,10 @@
             "name": "BBROOD",
             "description": "",
             "coordinate": {
-                "latitude": 52.355100,
-                "longitude": 4.893296
+                "latitude": 52.355143041398705,
+                "longitude": 4.893369739879755
             },
-            "radius": 7,
+            "radius": 10,
             "onEnter":"atbbrood.html",
             "onExit":"totjinstoko.html"
         },
@@ -67,10 +67,10 @@
             "name": "Tjin\\'s Toko",
             "description": "",
             "coordinate": {
-                "latitude": 52.354974,
-                "longitude": 4.893380
+                "latitude": 52.35497079328853,
+                "longitude": 4.8933980707124745
             },
-            "radius": 7,
+            "radius": 10,
             "onEnter":"attjinstoko.html",
             "onExit":"toestafette.html"
         },
@@ -78,10 +78,10 @@
             "name": "Estafette",
             "description": "",
             "coordinate": {
-                "latitude": 52.352499,
-                "longitude": 4.888202
+                "latitude": 52.352530402180136,
+                "longitude": 4.888228615750454
             },
-            "radius": 7,
+            "radius": 10,
             "onEnter":"atestafette.html",
             "onExit":"recipe.html"
         }

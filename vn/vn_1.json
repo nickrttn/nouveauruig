@@ -1,0 +1,45 @@
+{
+    "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
+    "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": false,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 10
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 3
+    },
+    "poiList":[
+        {
+            "name": "Alain Bernard",
+            "description": "Voor velen de favoriete slager in de pijp. Ze hebben allerlei heerlijke worsten in hun assortiment met roots uit Frankrijk.",
+            "coordinate": {
+                "latitude": 52.35537941106814,
+                "longitude": 4.892667252574947
+            },
+            "radius": 10,
+            "onEnter":"atalainbernard.html",
+            "onExit":"tomeneervanmourik.html"
+        }
+    ]
+}
