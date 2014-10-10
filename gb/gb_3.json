@@ -1,0 +1,45 @@
+{
+    "googleMapsKey": "AIzaSyDRNRn8ykSbtiDRvqwg8bAHrg3Ay2Qc3VM",
+    "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": true,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 5
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 7
+    },
+    "poiList":[
+            {
+            "name": "De Peperbol",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355720605348274,
+                "longitude": 4.894140158666314
+            },
+            "radius": 7,
+            "onEnter":"atpeperbol.html",
+            "onExit":"tobbrood.html"
+        }
+    ]
+}

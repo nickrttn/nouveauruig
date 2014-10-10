@@ -1,0 +1,45 @@
+{
+    "googleMapsKey": "AIzaSyBnyib0uElbs0LNFobHjWhQMyTq-hiStEg",
+    "tourType": "LINEAIR",
+    "mapOptions": {
+        "center": [52.35955620231157, 4.908019635968003],
+        "zoom": 16,
+        "disableDefaultUI": true,
+        "draggable": true,
+        "scrollwheel": false,
+        "mapTypeControl": false,
+        "navigationControl": false,
+        "mapTypeId": "ROADMAP"
+    },
+    "poiMarker": {
+        "path": "CIRCLE",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 7
+    },
+    "posMarker": {
+        "path": "BACKWARD_CLOSED_ARROW",
+        "fillColor": "GhostWhite",
+        "fillOpacity": 1,
+        "strokeColor": "#f3a654",
+        "strokeOpacity": 1,
+        "strokeWeight": 1,
+        "scale": 3
+    },
+    "poiList":[
+            {
+            "name": "BBROOD",
+            "description": "",
+            "coordinate": {
+                "latitude": 52.355143041398705,
+                "longitude": 4.893369739879755
+            },
+            "radius": 7,
+            "onEnter":"atbbrood.html",
+            "onExit":"toestafette.html"
+        }
+    ]
+}
