@@ -39,7 +39,7 @@
             },
             "radius": 7,
             "onEnter":"atestafette.html",
-            "onExit":"tovankrimpen.html"
+            "onExit":"tobbrood.html"
         }
     ]
 }

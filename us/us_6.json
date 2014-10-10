@@ -39,7 +39,7 @@
             },
             "radius": 7,
             "onEnter":"atkaasboertje.html",
-            "onExit":"tobbrood.html"
+            "onExit":"tovankrimpen.html"
         }
     ]
 }

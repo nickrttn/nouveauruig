@@ -39,7 +39,7 @@
             },
             "radius": 7,
             "onEnter":"atestafette.html",
-            "onExit":"recipe.html"
+            "onExit":"tobbrood.html"
         }
     ]
 }
