@@ -18,7 +18,7 @@
         "strokeColor": "#f3a654",
         "strokeOpacity": 1,
         "strokeWeight": 1,
-        "scale": 10
+        "scale": 15
     },
     "posMarker": {
         "path": "BACKWARD_CLOSED_ARROW",
@@ -37,7 +37,7 @@
                 "latitude": 52.352530402180136,
                 "longitude": 4.888228615750454
             },
-            "radius": 10,
+            "radius": 15,
             "onEnter":"atestafette.html",
             "onExit":"recipe.html"
         }
